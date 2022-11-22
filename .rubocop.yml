@@ -1,0 +1,8 @@
+inherit_from:
+  - "https://www.goodcop.style/rubocop.yml"
+  - "https://www.goodcop.style/tabs.yml"
+
+AllCops:
+  TargetRubyVersion: 2.7
+  Exclude:
+    - "lib/phlex-testing-capybara.rb"
